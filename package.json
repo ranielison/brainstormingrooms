@@ -22,10 +22,14 @@
     "@angular/router": "^6.1.0",
     "angular-bootstrap-md": "^6.2.3",
     "angular2-materialize": "^15.1.10",
+    "angularfire2": "file:node_modules/angularfire2",
+    "bootstrap": "^4.1.3",
     "core-js": "^2.5.4",
     "hammerjs": "^2.0.8",
-    "materialize-css": "^1.0.0",
+    "jquery": "^3.3.1",
+    "materialize-css": "file:node_modules/materialize-css",
     "rxjs": "^6.0.0",
+    "tether": "^1.4.4",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {

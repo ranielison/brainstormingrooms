@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router'
 
-import { AngularFireModule } from 'angularfire2';
+//import { AngularFireModule } from 'angularfire2';
 
 import { AppComponent } from './app.component';
 
@@ -24,14 +24,13 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 
     HeaderComponent,
     FooterComponent,
-    ContentComponent
-
+    ContentComponent,
     UserProfileComponent
 
   ],
   imports: [
     BrowserModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig),
+    //AngularFireModule.initializeApp(environment.firebaseConfig),
     RouterModule.forRoot(ROUTES),
     CoreModule
   ],
