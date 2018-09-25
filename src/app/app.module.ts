@@ -16,6 +16,8 @@ export const firebaseConfig = environment.firebaseConfig;
 import {ROUTES} from './app.routes';
 import { CoreModule } from './core/core.module';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { UsuarioComponent } from './usuario/usuario.component';
+import { CadastrousuarioComponent } from './usuario/cadastrousuario/cadastrousuario.component';
 
 
 @NgModule({
@@ -24,9 +26,10 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 
     HeaderComponent,
     FooterComponent,
-    ContentComponent
-
-    UserProfileComponent
+    ContentComponent,
+    UserProfileComponent,
+    UsuarioComponent,
+    CadastrousuarioComponent
 
   ],
   imports: [
