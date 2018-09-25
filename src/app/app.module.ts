@@ -24,7 +24,7 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 
     HeaderComponent,
     FooterComponent,
-    ContentComponent
+    ContentComponent,
 
     UserProfileComponent
 
