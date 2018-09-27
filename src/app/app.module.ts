@@ -18,6 +18,7 @@ import { CoreModule } from './core/core.module';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { UsuarioComponent } from './usuario/usuario.component';
 import { CadastrousuarioComponent } from './usuario/cadastrousuario/cadastrousuario.component';
+import { LoginComponent } from './usuario/login/login.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { CadastrousuarioComponent } from './usuario/cadastrousuario/cadastrousua
     ContentComponent,
     UserProfileComponent,
     UsuarioComponent,
-    CadastrousuarioComponent
+    CadastrousuarioComponent,
+    LoginComponent
 
   ],
   imports: [
