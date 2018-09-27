@@ -13,3 +13,12 @@ h1 {
     height: 60px;
     background: #3E4095;
 }
+
+div#page {
+    width: auto;
+    text-align: center;
+    padding: 40px 20px;
+}
+img {
+    max-width: 15%;
+}
