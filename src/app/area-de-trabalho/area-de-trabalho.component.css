@@ -1,0 +1,19 @@
+.container{
+    height: 400px;
+}
+.col-sm{
+    margin-top: 20px;
+    margin-left: -100px;
+    
+   
+   
+}
+
+.col-sm-8{
+    margin-top: 20px;
+    
+}
+.btn{
+    margin-top: 200px;
+    background: #3E4095;
+}
