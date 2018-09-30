@@ -19,8 +19,6 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { UsuarioComponent } from './usuario/usuario.component';
 import { CadastrousuarioComponent } from './usuario/cadastrousuario/cadastrousuario.component';
 import { LoginComponent } from './usuario/login/login.component';
-import { AreaDeTrabalhoComponent } from './area-de-trabalho/area-de-trabalho.component';
-import { PainelAreaTrabalhoComponent } from './painel-area-trabalho/painel-area-trabalho.component';
 
 
 @NgModule({
@@ -33,9 +31,7 @@ import { PainelAreaTrabalhoComponent } from './painel-area-trabalho/painel-area-
     UserProfileComponent,
     UsuarioComponent,
     CadastrousuarioComponent,
-    LoginComponent,
-    AreaDeTrabalhoComponent,
-    PainelAreaTrabalhoComponent
+    LoginComponent
 
   ],
   imports: [
