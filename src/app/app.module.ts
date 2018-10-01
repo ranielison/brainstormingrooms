@@ -19,6 +19,8 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { UsuarioComponent } from './usuario/usuario.component';
 import { CadastrousuarioComponent } from './usuario/cadastrousuario/cadastrousuario.component';
 import { LoginComponent } from './usuario/login/login.component';
+import { SalaComponent } from './sala/sala.component';
+import { EntrarComponent } from './sala/entrar/entrar.component';
 
 
 @NgModule({
@@ -31,7 +33,9 @@ import { LoginComponent } from './usuario/login/login.component';
     UserProfileComponent,
     UsuarioComponent,
     CadastrousuarioComponent,
-    LoginComponent
+    LoginComponent,
+    SalaComponent,
+    EntrarComponent
 
   ],
   imports: [
