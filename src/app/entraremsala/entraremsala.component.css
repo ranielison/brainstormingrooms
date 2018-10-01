@@ -1,0 +1,17 @@
+.navbar{
+    text-align: center;
+    background: #3E4095
+}
+
+.btn{
+    width: 120px; 
+    height: 40px;
+    background: #3E4095;
+}
+.row{
+    text-align: center;
+}
+
+.jumbotron{
+    margin-top: 25px;
+}

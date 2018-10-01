@@ -5,7 +5,6 @@ import { RouterModule } from '@angular/router'
 import { AngularFireModule } from 'angularfire2';
 
 import { AppComponent } from './app.component';
-
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContentComponent } from './content/content.component';
@@ -19,6 +18,7 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { UsuarioComponent } from './usuario/usuario.component';
 import { CadastrousuarioComponent } from './usuario/cadastrousuario/cadastrousuario.component';
 import { LoginComponent } from './usuario/login/login.component';
+import { EntraremsalaComponent } from './entraremsala/entraremsala.component';
 
 
 @NgModule({
@@ -31,7 +31,9 @@ import { LoginComponent } from './usuario/login/login.component';
     UserProfileComponent,
     UsuarioComponent,
     CadastrousuarioComponent,
-    LoginComponent
+    LoginComponent,
+    EntraremsalaComponent,
+    
 
   ],
   imports: [
