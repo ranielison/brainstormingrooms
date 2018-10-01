@@ -21,6 +21,7 @@ import { CadastrousuarioComponent } from './usuario/cadastrousuario/cadastrousua
 import { LoginComponent } from './usuario/login/login.component';
 import { SalaComponent } from './sala/sala.component';
 import { EntrarComponent } from './sala/entrar/entrar.component';
+import { CriarsalaComponent } from './sala/criarsala/criarsala.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { EntrarComponent } from './sala/entrar/entrar.component';
     CadastrousuarioComponent,
     LoginComponent,
     SalaComponent,
-    EntrarComponent
+    EntrarComponent,
+    CriarsalaComponent
 
   ],
   imports: [
