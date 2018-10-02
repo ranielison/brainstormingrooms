@@ -19,7 +19,8 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { UsuarioComponent } from './usuario/usuario.component';
 import { CadastrousuarioComponent } from './usuario/cadastrousuario/cadastrousuario.component';
 import { LoginComponent } from './usuario/login/login.component';
-
+import { SalaComponent } from './sala/sala.component';
+import { DraggableModule } from './draggable/draggable.module';
 
 @NgModule({
   declarations: [
@@ -31,14 +32,16 @@ import { LoginComponent } from './usuario/login/login.component';
     UserProfileComponent,
     UsuarioComponent,
     CadastrousuarioComponent,
-    LoginComponent
+    LoginComponent,
+    SalaComponent,
 
   ],
   imports: [
     BrowserModule,
     AngularFireModule.initializeApp(environment.firebaseConfig),
     RouterModule.forRoot(ROUTES),
-    CoreModule
+    CoreModule,
+    DraggableModule
   ],
   providers: [],
   bootstrap: [AppComponent]

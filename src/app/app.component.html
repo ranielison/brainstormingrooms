@@ -1,8 +1,35 @@
-<app-header ></app-header>
+<!--<app-header ></app-header>
 <app-content></app-content>
-<app-footer></app-footer>
+<app-footer></app-footer>-->
+<h1>Brainstorming</h1>
 
+<h2>Brainstorming - Sala 0000x</h2>
 
-<!--
-<router-outlet></router-outlet>
--->
+<div *ngFor="let box of availableBoxes" class="box"
+     appDroppable (dragStart)="currentBox = box">
+  {{ box }}
+  <div class="box box-helper" *appDraggableHelper>{{ box }}</div>
+</div>
+
+<div class="dropzone" appDropzone (drop)="move(currentBox, dropzone1)"
+     (remove)="move(currentBox, availableBoxes)">
+  <div *ngFor="let box of dropzone1" class="box"
+       appDroppable (dragStart)="currentBox = box">
+    {{ box }}
+    <div class="box" *appDraggableHelper>{{ box }}</div>
+  </div>
+</div>
+
+<div class="dropzone" appDropzone (drop)="move(currentBox, dropzone2)"
+     (remove)="move(currentBox, availableBoxes)">
+  <div *ngFor="let box of dropzone2" class="box"
+       appDroppable (dragStart)="currentBox = box">
+    {{ box }}
+    <div class="box" *appDraggableHelper>{{ box }}</div>
+  </div>
+</div>
+
+<form>
+  <input type="text" class="text" [(ngModel)]="name">
+  <button (click)="Add(name)">Add</button>
+</form>
