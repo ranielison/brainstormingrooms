@@ -19,6 +19,9 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
 import { UsuarioComponent } from './usuario/usuario.component';
 import { CadastrousuarioComponent } from './usuario/cadastrousuario/cadastrousuario.component';
 import { LoginComponent } from './usuario/login/login.component';
+import { SalaComponent } from './sala/sala.component';
+import { EntrarComponent } from './sala/entrar/entrar.component';
+import { CriarsalaComponent } from './sala/criarsala/criarsala.component';
 
 
 @NgModule({
@@ -32,6 +35,10 @@ import { LoginComponent } from './usuario/login/login.component';
     UsuarioComponent,
     CadastrousuarioComponent,
     LoginComponent,
+    SalaComponent,
+    EntrarComponent,
+    CriarsalaComponent
+
   ],
   imports: [
     BrowserModule,
