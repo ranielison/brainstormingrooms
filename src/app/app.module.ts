@@ -31,8 +31,7 @@ import { LoginComponent } from './usuario/login/login.component';
     UserProfileComponent,
     UsuarioComponent,
     CadastrousuarioComponent,
-    LoginComponent
-
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
