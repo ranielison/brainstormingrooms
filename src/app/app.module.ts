@@ -16,6 +16,12 @@ export const firebaseConfig = environment.firebaseConfig;
 import {ROUTES} from './app.routes';
 import { CoreModule } from './core/core.module';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { UsuarioComponent } from './usuario/usuario.component';
+import { CadastrousuarioComponent } from './usuario/cadastrousuario/cadastrousuario.component';
+import { LoginComponent } from './usuario/login/login.component';
+import { SalaComponent } from './sala/sala.component';
+import { EntrarComponent } from './sala/entrar/entrar.component';
+import { CriarsalaComponent } from './sala/criarsala/criarsala.component';
 
 
 @NgModule({
@@ -25,8 +31,13 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
     HeaderComponent,
     FooterComponent,
     ContentComponent,
-
-    UserProfileComponent
+    UserProfileComponent,
+    UsuarioComponent,
+    CadastrousuarioComponent,
+    LoginComponent,
+    SalaComponent,
+    EntrarComponent,
+    CriarsalaComponent
 
   ],
   imports: [
