@@ -20,7 +20,7 @@ import { UsuarioComponent } from './usuario/usuario.component';
 import { CadastrousuarioComponent } from './usuario/cadastrousuario/cadastrousuario.component';
 import { LoginComponent } from './usuario/login/login.component';
 import { SalaComponent } from './sala/sala.component';
-import { DraggableModule } from './draggable/draggable.module';
+import { DraggableModule } from './sala/draggable/draggable.module';
 
 @NgModule({
   declarations: [
@@ -34,7 +34,6 @@ import { DraggableModule } from './draggable/draggable.module';
     CadastrousuarioComponent,
     LoginComponent,
     SalaComponent,
-
   ],
   imports: [
     BrowserModule,
